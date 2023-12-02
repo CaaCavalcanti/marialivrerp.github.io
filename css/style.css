@@ -1,0 +1,80 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+ padding: 40px 4%;
+}
+
+header, section, footer{
+    max-width: 1980px;
+    min-height: 100vh;
+    background-image: linear-gradient(-140deg,#763e76,#763e76,#a378a4);
+}
+.flex{
+    display: flex;
+
+}
+
+header > 
+.interface {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+header a{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+         color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s;
+        font-size: 20px;
+}
+header a:hover{
+        color: #fff;
+        transform: scale(1.05);
+}
+header nav ul /*retirar traçado da escrita*/
+{
+ list-style-type:none;
+
+}
+header nav ul li{
+    display:inline-block;
+    padding: 0 30px;
+}
+header .btn-contato button /*botão*/
+{   
+    white-space: nowrap;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 10;
+    background-color:rgb(85, 37, 85);
+    color: #fff;
+    border-style:dashed;
+    cursor:pointer;    
+}
+/*ESTILO DO TOPO DO SITE */
+
+section.topo-do-site{ /*Descrição Em busca...*/
+    align-items: center;
+    justify-content:center;
+    gap: 40;
+    color: #fff;
+    padding: 200px 10%;
+}
+.topo-do-site .txt-topo-do-site h1 span /*ponto final colorido*/
+{
+    color: #713c74;
+    font-size: 50px;
+}
+    .topo-do-site .txt-topo-do-site p{ /*cor do texto do meio*/
+    color: #fff;
+    font-size: 20px;
+}
+section.img-topo-do-site{
+    padding: 40px 4%;
+
+}
